@@ -19,8 +19,8 @@ function draw() {
     strokeWeight(0.151)
     let x = a*10000;
     let y = (a)/tan(x+zoff)+mm;
-    let e = (cos(x))*80;
-    circle(sin(tan(cos(y))+mm)*e, sin(tan(sin(y))+mm)*e,0.03);
+    let e = (cos(x))*width/20;
+    circle(sin(tan(cos(y))+mm)*e, sin(tan(sin(y))+mm)*e,0.23);
   }
   zoff += 0.035;
 }
